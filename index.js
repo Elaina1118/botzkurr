@@ -213,7 +213,7 @@ kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "6281220670449@s.whatsapp.net"
+    const htod = "62881037046507@s.whatsapp.net"
 
     
 
@@ -301,7 +301,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
 
-				sendButImage(anu.jid, teks, `KurzBotz-Assistan`, img,but = [{buttonId:`donasi`, 
+				sendButImage(anu.jid, teks, `SkyzBotz-Assistan`, img,but = [{buttonId:`donasi`, 
 
                buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
@@ -323,7 +323,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, `KurzBotz-Assistan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `SkyzBotz-Assistan`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -396,8 +396,8 @@ kurr.on('group-update', async (anu) => {
 	})
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["62881037046507@s.whatsapp.net","62881037046507@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "62881037046507@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
