@@ -1288,10 +1288,10 @@ if (budy.startsWith('kurr')){
 sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('http://instagram.com/yudipermana.1')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('http://youtube.com/c/yudipermana')
 }
 
    const sotoy = [
@@ -1361,15 +1361,15 @@ reply('http://youtube.com/c/KurrXd')
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *yudiganzz*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
- _Total menu : 385_
+ _Total menu : 385+_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
  _Nama Bot : Kurz Bot Assistan_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : yudi
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -1931,9 +1931,9 @@ _Dilarang keras_
 -VC BOT
 LANGGAR BANNED
 
-GITHUB OWNER:https://github.com/KurrXd
-YOUTUBE OWNER:https://youtube.com/c/KurrXd`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+GITHUB OWNER:https://github.com/Kxganzzz
+YOUTUBE OWNER:https://youtube.com/c/yudiganzz`
+sendButLocation(from, `${menu}`, "*_© Skyz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1941,7 +1941,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` Skyz Bot Assistan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2007,14 +2007,14 @@ case 'bego':
 case 'catalog': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 
-                nama = ' Kurz Bot Assistan '
-       ownerJid = "6281220670449@s.whatsapp.net"
+                nama = ' Yudi Bot Assistan '
+       ownerJid = "62881037046507@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menunya = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *yudiganzz*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
@@ -2022,7 +2022,7 @@ case 'catalog':
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
  _Nama Bot : Kurz Bot Assistan_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : yudi
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
