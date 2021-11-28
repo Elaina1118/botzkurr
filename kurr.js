@@ -1137,14 +1137,24 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
-cpref = `Hayo Ngomongin KurrXd Ganteng Yaaa Aowkowkwoo`
+if(budy.includes('Yudi')){
+cpref = `Hayo Ngomongin Yudi Ganteng Yaaa Aowkowkwoo`
 reply(cpref)
 }
-if(budy.includes('KurrTod')){
-cpref = `Hayo Ngomongin KurrXd Ganteng Yaaa Aowkowkwoo`
+if(budy.includes('gsatt')){
+cpref = `Hayo Ngomongin gsatt Ganteng Yaaa Aowkowkwoo`
 reply(cpref)
 }
+if(budy.includes('adit')){
+cpref = `Hayo Ngomongin adit Ganteng Yaaa Aowkowkwoo`
+reply(cpref)
+}
+if(budy.includes('dimm')){
+cpref = `Hayo Ngomongin dimm Ganteng Yaaa Aowkowkwoo`
+reply(cpref)
+}
+
+
            if (budy.startsWith('>')){
 if (!isOwner && !mek.key.fromMe) return
 console.log(color('[EVAL]'), color(moment(mek.messageTimestamp * 1000).format('DD/MM/YY HH:mm:ss'), 'yellow'), color(`Eval V1 brooo`))
