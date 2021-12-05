@@ -360,11 +360,11 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
 }
 		if (antibot === true) return
 		const katalog = (teks) => {
-             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© Kurz Bot Assistan_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
+             res = kurr.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*_© Skyz Bot Assistan_*", "thumbnail": ofrply, "surface": 'CATALOG' }}, {quoted:ftrol})
              kurr.relayWAMessage(res)
         }
         const grupinv = (teks) => {
-        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `Kurz Bot Assistan`, "footerText": "*_© Kurz Bot Assistan_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
+        	grup = kurr.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '6288213840883-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/JI25LDtPW784GAZoRD9fW9', "groupName": `Skyz Bot Assistan`, "footerText": "*_© Skyz Bot Assistan_*", "jpegThumbnail": ofrply, "caption": teks}}, {quoted:finv})
             kurr.relayWAMessage(grup)
         }
 		idttt = []
@@ -771,7 +771,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
             if (isAfk(mek.key.remoteJid)) return
             addafk(mek.key.remoteJid)
 			heheh = ms(Date.now() - waktuafk)
-		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Kurz Bot Assistan_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+		  sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Skyz Bot Assistan_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 			}
 		}
 		if (mek.key.remoteJid.endsWith('@g.us') && offline) {
@@ -784,7 +784,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                         if (isAfk(mek.key.remoteJid)) return
                         addafk(mek.key.remoteJid)
 						heheh = ms(Date.now() - waktuafk)
-			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Kurz Bot Assistan_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+			       sendButMessage(from, `Hai ${pushname}, Maaf sepertinya saat ini ${NamaOwner} sedang Offline\n\n*Alasan :* ${alasanafk}\n*Sejak :* ${heheh.hours} Jam, ${heheh.minutes} Menit, ${heheh.seconds} Detik\n\nSilahkan hubungi lagi setelah Online`, "*_© Skyz Bot Assistan_*", [{buttonId: 'simi', buttonText: {displayText: 'Oke'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					}
 				}
 						}
@@ -1007,7 +1007,7 @@ if (!mek.key.remoteJid.endsWith('@g.us') && offline){
                 });
             }
             const sendKontak = (from, nomor, nama) => {
-	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer Kurz Bot Assistan\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
+	        const vcard = 'BEGIN:VCARD\n' + 'VERSION:3.0\n' + 'FN:' + nama + '\n' + `ORG:Developer Skyzz Bot Assistan\n` + 'TEL;type=CELL;type=VOICE;waid=' + nomor + ':+' + nomor + '\n' + 'END:VCARD'
 	        kurr.sendMessage(from, { displayname: nama, vcard: vcard}, MessageType.contact, {quoted:mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
             }
             const hideTagKontak = async function(from, nomor, nama){
@@ -1367,7 +1367,7 @@ reply('http://youtube.com/c/yudipermana')
  _Total Hit : ${cmhit.length}_
  _Total menu : 385+_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : Skyz Bot Assistan_
  _Nama Owner : ${NamaOwner}_
  _Nomor Owner : yudi
  _Auto Composing : ${settings.autocomposing}_
@@ -1709,7 +1709,7 @@ ${nomor++}.  ${prefix}kanna
 ${nomor++}.  ${prefix}sagiri
 ${nomor++}.  ${prefix}megumin
 ${nomor++}.  ${prefix}wallnime
-${nomor++}.  ${prefix}ass
+${nomor++}.  ${prefix}ass ERORR
 ${nomor++}.  ${prefix}ahegao
 ${nomor++}.  ${prefix}hentai
 ${nomor++}.  ${prefix}yuri
@@ -1807,7 +1807,7 @@ ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
 
 
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Skyz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1815,7 +1815,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` Skyz Bot Assistan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1915,7 +1915,7 @@ case 'menu':
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menu = `╭─❒ 「 KurzBotz Assistan Info 」
+       menu = `╭─❒ 「 SkyzBotz Assistan Info 」
 *TOTAL MENU :385*
 *OWNER: ${NamaOwner}*
 *NOMER OWNER: ${NomorOwner}*
@@ -2020,7 +2020,7 @@ case 'catalog':
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : Skyz Bot Assistan_
  _Nama Owner : ${NamaOwner}_
  _Nomor Owner : yudi
  _Auto Composing : ${settings.autocomposing}_
@@ -2362,7 +2362,7 @@ ${nomor++}.  ${prefix}kanna
 ${nomor++}.  ${prefix}sagiri
 ${nomor++}.  ${prefix}megumin
 ${nomor++}.  ${prefix}wallnime
-${nomor++}.  ${prefix}ass
+${nomor++}.  ${prefix}ass EROR
 ${nomor++}.  ${prefix}ahegao
 ${nomor++}.  ${prefix}hentai
 ${nomor++}.  ${prefix}yuri
@@ -2499,7 +2499,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Kurz Bot Assistan`,
+footerText: `Skyz Bot Assistan`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2557,7 +2557,7 @@ https://bit.ly/BeliRdpBang ( KurrXd )
 
 
 *MATURSUWUN MONGGO DI LARISI*`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Skyz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2565,7 +2565,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Kurz Bot Assistan`
+menu =` Skyz Bot Assistan`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2605,7 +2605,7 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 Skyz Bot asisistan 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -2659,7 +2659,7 @@ break
     
        case 'maker3d': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
-                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Kurz Bot Assistan`)
+                    if (args.length < 1) return reply(`*Example :*\n${prefix + command} Skyz Bot Assistan`)
 					teksnya = args.join(" ")
 					sticWait(from)
 					anu = await fetchJson(`https://xnxxapi.herokuapp.com/api/maker3d?text=${teksnya}&apikey=xnxx`)
